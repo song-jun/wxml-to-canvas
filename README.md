@@ -167,7 +167,7 @@ git clone https://github.com/song-jun/wxml-to-canvas.git
 
 ## 在小程序中使用
 
-先去github下载canvas.js
+- 先去github下载canvas.js
 
 ```sh
 git clone https://github.com/song-jun/wxml-to-canvas.git
@@ -388,17 +388,15 @@ Page({
 
 ## canvas.js使用说明
 
-::: danger
-要绘制的元素都必须带上相同的className,wrapperId都是必选项
+- 要绘制的元素都必须带上相同的className,wrapperId都是必选项
 
-绘制文字，需加上data-text属性
+- 绘制文字，需加上data-text属性
 例如 data-text="11111111111111111"
 
-控制文字行数，需加上data-line属性,没加属性文字自动换行
+- 控制文字行数，需加上data-line属性,没加属性文字自动换行
 例如 data-line="1"
 
-控制文字对齐方式，left,center,right,需加属性data-align
+- 控制文字对齐方式，left,center,right,需加属性data-align
 例如 data-align='center'
 
-支持image,view,text,border,borderRadius,backgroundColor,绘制圆角矩形，绘制圆角图片，绘制圆形图片，文字自动换行，文字行数控制，超出部分省略号显示
-:::
+- 支持image,view,text,border,borderRadius,backgroundColor,绘制圆角矩形，绘制圆角图片，绘制圆形图片，文字自动换行，文字行数控制，超出部分省略号显示
