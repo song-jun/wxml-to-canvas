@@ -1,2 +1,2 @@
-# wxml2html
-wxml2html
+# wxml-to-canvas
+wxml-to-canvas
