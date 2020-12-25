@@ -268,7 +268,7 @@ Page({
 </view>
 ```
 
-- index.wxss
+- index.wxss代码示例
 
 ```css
 .btn-box{
